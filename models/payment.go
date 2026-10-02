@@ -4,7 +4,7 @@ type PaymentStatus string
 
 const (
 	PaymentPending	PaymentStatus = "PENDING"
-	PaymentSuccess	PaymentStatus = "Success"
+	PaymentSuccess	PaymentStatus = "SUCCESS"
 	PaymentFailed	PaymentStatus = "FAILED"
 )
 
